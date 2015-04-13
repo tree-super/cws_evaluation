@@ -53,6 +53,7 @@ public class Evaluator {
                 if(clazz.getSimpleName().startsWith(exclude)){
                     iter.remove();
                     System.out.println("不评估："+clazz.getSimpleName());
+                    break;
                 }
             }
         }
